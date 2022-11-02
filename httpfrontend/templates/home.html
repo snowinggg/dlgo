@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Home</title>
+    {% include 'fragment.html' %}
+
     <style>
   body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -64,9 +64,12 @@
   </style>
 </head>
 <body>
+<header>
+            {% include 'header.html' %}
+        </header>
 <div>SSangLib Go</div>
 <div><a href="static/select_level.html" onclick="playGame(event);">대국 실행</a></div>
-<div><a href="static/go_record.html" onclick="checkGibo(event);">기보</a></div>
+<div><a href="read-record/list" onclick="checkGibo(event);">기보</a></div>
 <div><a href="static/setting.html" onclick="setting(event);">설정</a></div>
 <div><a href="hi" onclick="myPage(event);">마이페이지</a></div>
 

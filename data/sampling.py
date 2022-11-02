@@ -81,7 +81,15 @@ class Sampler:
                 test_sample_file.write(str(sample) + "\n")
             test_sample_file.close()
 
-        test_sample_file = open(self.test_folder, 'r')
+        test_sample_file = Applications
+▪ Segmenting customers into groups with similar demographics or buying
+patterns for targeted marketing campaigns
+▪ Detecting anomalous behavior
+• Unauthorized network intrusions, by identifying patterns of use falling
+outside the known clusters
+▪ Simplifying extremely large datasets
+• Group features with similar values into a smaller number of homogeneous
+categories(self.test_folder, 'r')
         sample_contents = test_sample_file.read()
         test_sample_file.close()
         for line in sample_contents.split('\n'):

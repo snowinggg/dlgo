@@ -7,7 +7,7 @@ import tarfile
 import gzip
 import shutil
 import numpy as np
-import multiprocessing
+#import multiprocessing
 #from os import sys
 from keras.utils import to_categorical
 

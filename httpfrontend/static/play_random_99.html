@@ -65,20 +65,26 @@
 </head>
 <body>
 
-<div>Random Bot</div>
+<div><a href="/">HOME</a></div>
 <div><a href="#" onclick="resetGame(event);">new game</a></div>
 <div id="board"></div>
 <div>
     <div id="status">Black to play</div>
     <div id="spinner" style="display: none" class="loader"></div>
 </div>
+<div>
+    <form action="/" method="POST">
+        <button type="submit", value="Button"> PASS </button>
+    </form>
+    <form action=" " method="POST">
+        <button type="submit", value="Button"> RESIGN </button>
+    </form>
+</div>
 <script src="iframeSizer.contentWindow.min.js"></script>
-
-
 <script type="text/javascript" src="./jgoboard-latest.js"></script>
 <script type="text/javascript" src="large/board.js"></script>
 <script type="text/javascript">
-var BOARD_SIZE = 9;
+var BOARD_SIZE = 19;
 var jrecord = new JGO.Record(BOARD_SIZE);
 var jboard = jrecord.jboard;
 var jsetup = new JGO.Setup(jboard, JGO.BOARD.largeWalnut);

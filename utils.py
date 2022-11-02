@@ -1,6 +1,7 @@
 import numpy as np
 from dlgo import gotypes
 
+cols = 'abcdefghjklmnopqrst'
 COLS = 'ABCDEFGHJKLMNOPQRST'
 STONE_TO_CHAR = {
     None: ' , ',
@@ -35,4 +36,10 @@ def coords_from_point(point):
     return '%s%d' % (
         COLS[point.col - 1],
         point.row
+    )
+
+def sgf_from_point(point):
+    return '%s%s' % (
+        cols[point.col - 1],
+        cols[point.row - 1]
     )
