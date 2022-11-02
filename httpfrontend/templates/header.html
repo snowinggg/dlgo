@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">
+        <span class="text-center">SSANGLIB</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- 인증시 -->
+        <ul id="show_review_save_button_by_token" class="navbar-nav mr-auto">
+            {% if request.cookies.get('mytoken') is none %}
+            {% else %}
+            <li class="nav-item">
+
+            </li>
+            {% endif %}
+        </ul>
+        <ul id="show_user_by_token" class="navbar-nav justify-content-end">
+            <!-- 미인증시 -->
+            {% if request.cookies.get('mytoken') is none %}
+            <li class="nav-item">
+                <a class="nav-link" href="/login"><i class="fa fa-sign-in" aria-hidden="true"></i>로그인</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/sign-up"><i class="fa fa-address-card" aria-hidden="true"></i>회원가입</a>
+            </li>
+            <!--인증시-->
+            {% else %}
+            <li class="nav-item">
+                <span id="user_id" class="nav-link"></span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style="cursor: pointer;" onclick="logout()"><i class="fa fa-sign-out"
+                        aria-hidden="true"></i>로그아웃</a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+    <script src="../static/js/header.js"></script>
+</nav>
