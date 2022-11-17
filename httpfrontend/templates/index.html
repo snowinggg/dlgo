@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>쌍립</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="static/css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+<head>
+    {% include 'fragment.html' %}
+</head>
+<body>
+<header>
+            {% include 'header.html' %}
+        </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="static/assets/css/styles.css">
+
+    <title>SideBar sub menus</title>
+</head>
+<body id="body-pd">
+    <div class="l-navbar" id="navbar">
+        <nav class="nav">
+            <div>
+                <div class="nav__brand">
+                    <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                    <a href="#" onClick="location.reload();">Ssanglib</a>
+                </div>
+                <div class="nav__list">
+                    <a href="#" class="nav__link active" href="#scrollspyHeading1">
+                        <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">메인 페이지</span>
+                    </a>
+                    <a href="#2" class="nav__link" href="#scrollspyHeading2">
+                        <ion-icon name="game-controller-outline"></ion-icon>
+                        <span class="nav_name">&nbsp 대국 실행</span>
+                    </a>
+
+                    <div href="#3" class="nav__link collapse" href="#scrollspyHeading3">
+                        <ion-icon name="easel-outline"></ion-icon>
+                        <span class="nav_name">최신 기보</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Data</a>
+                            <a href="#" class="collapse__sublink">Group</a>
+                            <a href="#" class="collapse__sublink">Members</a>
+                        </ul>
+                    </div>
+
+                    <a href="#3" class="nav__link" >
+                        <ion-icon name="pie-chart-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">&nbsp최신 기보</span>
+                    </a>
+
+                    <div href="#" class="nav__link collapse">
+                        <ion-icon name="people-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">Team</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Data</a>
+                            <a href="#" class="collapse__sublink">Group</a>
+                            <a href="#" class="collapse__sublink">Members</a>
+                        </ul>
+                    </div>
+
+                    <a href="#4" class="nav__link" href="#scrollspyHeading4">
+                        <ion-icon name="reader-outline"></ion-icon>
+                        <span class="nav_name">&nbsp 바둑 규칙</span>
+                    </a>
+                </div>
+                <a class="nav-link" style="cursor: pointer;" onclick="logout()"><i class="fa fa-sign-out"
+                        aria-hidden="true"></i>&nbsp &nbsp 로그아웃</a>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- IONICONS -->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <!-- JS -->
+    <script src="static/assets/js/main.js"></script>
+</body>
+</html>
+        <!-- Masthead-->
+        <header class="masthead bg-secondary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="static/assets/img/avataaars.png" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">쌍립</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">대국 실행, 최신 기보, 바둑 규칙</p>
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <!-- About Section-->
+        <section class="page-section bg-success text-white mb-0" >
+            <div class="container">
+                <!-- About Section Heading-->
+                <p id="2"><p>
+                <h2 class="page-section-heading text-center text-uppercase text-white" >대국 실행</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                </div>
+                <!-- About Section Button-->
+                <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-light" href="static/play_predict_19.html" onclick="playGame(event);">
+                        대국 실행1
+                    </a>
+                    <p class="lead">설명1.</p>
+                </div>
+                                <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-light" href="static/play_random_99.html" onclick="playGame(event);">
+                        대국 실행2
+                    </a>
+                                    <p class="lead">설명1.</p>
+                </div>
+            </div>
+            /
+        </section>
+                <section class="page-section portfolio bg-white" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <p id="3"><p>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">최신 기보</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="static/assets/img/portfolio/1.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="static/assets/img/portfolio/cake.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="static/assets/img/portfolio/circus.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="static/assets/img/portfolio/game.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="static/assets/img/portfolio/safe.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="static/assets/img/portfolio/submarine.png" alt="..." />
+                        </div>
+                    </div>
+                                        <!-- Portfolio Item 7-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="static/assets/img/portfolio/game.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 8-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal8">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="static/assets/img/portfolio/safe.png" alt="..." />
+                        </div>
+                    </div>
+                                        <!-- Portfolio Item 9-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal9">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="static/assets/img/portfolio/submarine.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- 기보 리스트-->
+
+        <footer class="footer text-center">
+            <p id="4"><p>
+                            <h2 class="page-section-heading text-center text-uppercase text-white">바둑 규칙</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+            <div class="container">
+                <div class="row">
+                    <div class="container">
+
+  <ul class="list-group">
+    <li class="list-group-item clearfix 1">
+      <img class="img-responsive img-rounded" src="http://placehold.it/256/163a63" alt=""/>
+      <h3 class="list-group-item-heading">
+        바둑 규칙 1
+        <span class="label label-danger pull-right"></span>
+      </h3>
+      <p class="list-group-item-text lead">
+        1회 1수의 법칙
+        <br />
+        <a href="#"><small></small></a>
+      </p>
+      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#check1">
+  확인하기
+</button>
+      </div>
+    </li>
+        <li class="list-group-item clearfix">
+      <img class="img-responsive img-rounded" src="http://placehold.it/256/163a63" alt=""/>
+      <h3 class="list-group-item-heading">
+        바둑 규칙 2
+        <span class="label label-danger pull-right"></span>
+      </h3>
+      <p class="list-group-item-text lead">
+        착점 위치
+        <br />
+        <a href="#"><small></small></a>
+      </p>
+      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#check2">
+  확인하기
+</button>
+      </div>
+    </li>
+        <li class="list-group-item clearfix">
+      <img class="img-responsive img-rounded" src="http://placehold.it/256/163a63" alt=""/>
+      <h3 class="list-group-item-heading">
+        바둑 규칙 3
+        <span class="label label-danger pull-right"></span>
+      </h3>
+      <p class="list-group-item-text lead">
+        착점의 자유
+        <br />
+        <a href="#"><small></small></a>
+      </p>
+      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#check3">
+  확인하기
+</button>
+      </div>
+    </li>
+        <li class="list-group-item clearfix">
+      <img class="img-responsive img-rounded" src="http://placehold.it/256/163a63" alt=""/>
+      <h3 class="list-group-item-heading">
+        바둑 규칙 4
+        <span class="label label-danger pull-right"></span>
+      </h3>
+      <p class="list-group-item-text lead">
+        일수불퇴(一手不退)의 규칙
+        <br />
+        <a href="#"><small></small></a>
+      </p>
+      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#check4">
+  확인하기
+</button>
+      </div>
+    </li>
+        <li class="list-group-item clearfix">
+      <img class="img-responsive img-rounded" src="http://placehold.it/256/163a63" alt=""/>
+      <h3 class="list-group-item-heading">
+        바둑 규칙 5
+        <span class="label label-danger pull-right"></span>
+      </h3>
+      <p class="list-group-item-text lead">
+        불계의 규칙
+        <br />
+        <a href="#"><small></small></a>
+      </p>
+      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#check5">
+  확인하기
+</button>
+      </div>
+    </li>
+        <li class="list-group-item clearfix">
+      <img class="img-responsive img-rounded" src="http://placehold.it/256/163a63" alt=""/>
+      <h3 class="list-group-item-heading">
+        바둑 규칙 6
+        <span class="label label-danger pull-right"></span>
+      </h3>
+      <p class="list-group-item-text lead">
+        들어냄의 규칙
+        <br />
+        <a href="#"><small></small></a>
+      </p>
+      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#check6">
+  확인하기
+</button>
+      </div>
+    </li>
+        <li class="list-group-item clearfix">
+      <img class="img-responsive img-rounded" src="http://placehold.it/256/163a63" alt=""/>
+      <h3 class="list-group-item-heading">
+        바둑 규칙 7
+        <span class="label label-danger pull-right"></span>
+      </h3>
+      <p class="list-group-item-text lead">
+        착수금지점의 규칙
+        <br />
+        <a href="#"><small></small></a>
+      </p>
+      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#check7">
+  확인하기
+</button>
+      </div>
+    </li>
+          <li class="list-group-item clearfix">
+      <img class="img-responsive img-rounded" src="http://placehold.it/256/163a63" alt=""/>
+      <h3 class="list-group-item-heading">
+        바둑 규칙 8
+        <span class="label label-danger pull-right"></span>
+      </h3>
+      <p class="list-group-item-text lead">
+        동형반복금지의 규칙
+        <br />
+        <a href="#"><small></small></a>
+      </p>
+      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#check8">
+  확인하기
+</button>
+      </div>
+    </li>
+          <li class="list-group-item clearfix">
+      <img class="img-responsive img-rounded" src="http://placehold.it/256/163a63" alt=""/>
+      <h3 class="list-group-item-heading">
+        바둑 규칙 9
+        <span class="label label-danger pull-right"></span>
+      </h3>
+      <p class="list-group-item-text lead">
+        그 외 바둑 용어
+        <br />
+        <a href="#"><small></small></a>
+      </p>
+      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#check9">
+  확인하기
+</button>
+      </div>
+    </li>
+  </ul>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>@ssanglib 2022 권민석 최준영 신혁진</small></div>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">1회 1수의 법칙</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/1234.gif" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">두 사람이 한 수씩 교대로 둔다. <br> 즉, 한 사람이 한꺼번에 두 수 이상을 둘 수 없다.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        창 닫기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">착점위치</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/cake.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">돌을 놓는 위치는 선과 선이 교차되는 점 위이다. 선 위나 선 사이의 공간에는 둘 수 없다.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        창 닫기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">착점의 자유</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/circus.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">반상위 361개의 점 위라면 어디든지 착점할 수 있다. <br>(※단, 이미 돌들이 놓여있는 기착점과 착수금지점은 제외)<br> 기물마다 행마의 범위가 제한되어 있는 장기나 체스와는 크게 구별되는 점이다.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        창 닫기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">일수불퇴(一手不退)의 규칙</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/game.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">일단 놓인 수는 절대로 무르거나 움직일 수 없다.<br> (※단, 통신바둑에서 키보드나 마우스 조작 미스로 인한 오착(誤着)은 예외)</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        창 닫기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">불계의 규칙</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/safe.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">형세가 크게 불리하거나 역전의 승부처가 없을 때는 끝까지 가지 않고 도중에 기권을 표할 수 있다. 이것을 '불 계패(不計敗)'라고 하는데, 예의 차원에서 높이 평가되는 관행이다.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        창 닫기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">들어냄의 규칙</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">흑돌 4개가 백돌의 활로를 완전히 막으며 포위했을 때는 백돌을 반상에 들어낸다. <br>이것을 '따냄'이라고 하는데, 이렇게 따낸 백돌은 흑의 포로 가 되어 계가시 백집을 메우는데 쓰인다.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        창 닫기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 7-->
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">착수금지점의 규칙</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">바둑에서는 기본적으로 반상 어디에나 착점할 수 있지만 예외적으로 둘 수 없는 곳이 있다.<br> 이미 상대로부터 사방이 완전히 둘러싸여있는 곳에는 착점할 수 없다.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        창 닫기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 8-->
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">동형반복금지의 규칙</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">흑백이 맞물려 서로 맞따내는 형태를 하고 있을 때 적용되는 규칙.<br>
+A의 흑1로 백 한점을 따낸 뒤 곧바로 B의 백2로 흑 한점을 되따내는 것을 허용한다면 C와 D처럼 다시 흑3, 백4 로 서로 되따내는 일이 끊임없이 반복될 것이므로 이를 피하기 위한 규칙이 필요한 것이다.
+                                        <br>따라서 A의 흑1 직후 백은 곧바로 B의 백2로 따낼 수 없으며,
+다른 곳에 한 수 이상을 둔 다음 기회가 오면 비로소 백2로 되따낼 수 있는 것이다.<br>
+이것을 '패(劫)'라고 일컬으며, 이 패를 놓고 벌이는 절충의 과정을 '패싸움'이라고 한다.
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        창 닫기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 9-->
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">그 외 바둑 용어</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+                                        타개(打開)<br>
+                                        매우 어렵거나 막힌 일을 잘 처리하여 해결함.<br>
+
+                                        패착(敗着)<br>
+                                        바둑에서, 그곳에 돌을 놓았기 때문에 결과적으로 그 판에서 지게 된 아주 나쁜 수.<br>
+
+                                        복기(復棋/復碁)<br>
+                                        바둑에서, 한 번 두고 난 바둑의 판국을 비평하기 위하여 두었던 대로 다시 처음부터 놓아 봄.<br>
+
+                                        훈수(訓手)<br>
+                                        바둑이나 장기 따위를 둘 때에 구경하던 사람이 끼어들어 수를 가르쳐 줌. 남의 일에 끼어들어 이래라저래라 하는 말.<br>
+
+                                        초(秒)읽기<br>
+                                        바둑에서, 기록을 맡아보는 사람이 둘 차례가 된 기사의 제한 시간이 5분이나 10분밖에 남지 않았을 때부터 시간이 흐르는 것을 초 단위로 알려 주는 일. 어떤 일이 시간상 급박한 상태를 비유적으로 이르는 말.<br>
+
+                                        입신(入神)<br>
+                                        기력(棋力)을 나타내는 용어. 신과 같은 경지에 이르렀다는 뜻으로, 9단을 이른다.<br>
+
+                                        꼼수<br>
+                                        쩨쩨한 수단이나 방법. 상대에게 이득을 꾀하는 수. 상대에게 들통날 때는 오히려 손해를 보게 된다.<br>
+
+                                        묘수(妙手)<br>
+                                        평소 생각해내기 어려울 만큼 뛰어난 수.<br>
+
+                                        악수(惡手)<br>
+                                        패배로 이끄는 나쁜 수. ‘장고 끝에 악수 둔다’로 쓰인다.<br>
+
+                                        자충수(自充手)<br>
+                                        자충수는 스스로 자신의 활로를 메우는 수.<br>
+
+                                        패착(敗着)<br>
+                                        스스로 행한 행동이 결국에 가서는 자신에게 불리한 결과를 가져오게 됨을 비유적으로 이르는 말.<br>
+
+                                        포석(布石)<br>
+                                        중반전의 싸움이나 집 차지에 유리하도록 초반에 돌을 벌여 놓는 일. 앞날을 위하여 미리 손을 써 준비함.<br>
+
+                                        정석(定石)<br>
+                                        예로부터 지금에 이르기까지 공격과 수비에 최선이라고 인정한 일정한 방식으로 돌을 놓는 법.<br>
+
+                                        꽃놀이패(霸)<br>
+                                        한 편은 패가 나면 큰 손실을 입으나, 상대편은 패가 나도 별 상관이 없는 패. 한쪽의 부담이 일방적으로 큰 패를 말한다.<br>
+
+                                        대마불사(大馬不死)<br>
+                                        대마가 결국은 살길이 생겨 쉽게 죽지 않는 일.<br>
+
+                                        대마(大馬)<br>
+                                        바둑에서, 많은 점으로 넓게 자리를 잡은 말.<br>
+
+                                        사활(死活,Tsumego)<br>
+                                        바둑에서 돌의 삶과 죽음을 이르는 말.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        창 닫기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Modal -->
+        <div class="portfolio-modal modal fade" id="check1" tabindex="-1" aria-labelledby="check1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"><br>1회 1수의 법칙</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/바둑 규칙1.gif" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">두 사람이 한 수씩 교대로 둔다. <br> 즉, 한 사람이 한꺼번에 두 수 이상을 둘 수 없다.</p>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">창 닫기</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Modal -->
+        <div class="portfolio-modal modal fade" id="check2" tabindex="-1" aria-labelledby="check2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"><br>착점위치</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/바둑 규칙2.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">돌을 놓는 위치는 선과 선이 교차되는 점 위이다. 선 위나 선 사이의 공간에는 둘 수 없다.</p>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">창 닫기</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Modal -->
+        <div class="portfolio-modal modal fade" id="check3" tabindex="-1" aria-labelledby="check3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"><br>착점의 자유</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/바둑 규칙3.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">반상위 361개의 점 위라면 어디든지 착점할 수 있다.<br> (※단, 이미 돌들이 놓여있는 기착점과 착수금지점은 제외) <br>기물마다 행마의 범위가 제한되어 있는 장기나 체스와는 크게 구별되는 점이다.</p>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">창 닫기</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Modal -->
+        <div class="portfolio-modal modal fade" id="check4" tabindex="-1" aria-labelledby="check4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"><br>일수불퇴(一手不退)의 규칙</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/바둑 규칙4.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">일단 놓인 수는 절대로 무르거나 움직일 수 없다.<br> (※단, 통신바둑에서 키보드나 마우스 조작 미스로 인한 오착(誤着)은 예외).</p>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">창 닫기</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Modal -->
+        <div class="portfolio-modal modal fade" id="check5" tabindex="-1" aria-labelledby="check5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"><br>불계의 규칙</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/바둑 규칙5.gif" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">형세가 크게 불리하거나 역전의 승부처가 없을 때는 끝까지 가지 않고 도중에 기권을 표할 수 있다.<br> 이것을 '불 계패(不計敗)'라고 하는데, 예의 차원에서 높이 평가되는 관행이다. <br>위는 커제 선수가 초시계를 꺾는 방법으로 불계패를 선언한 것.</p>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">창 닫기</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Modal -->
+        <div class="portfolio-modal modal fade" id="check6" tabindex="-1" aria-labelledby="check6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"><br>들어냄의 규칙</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/바둑 규칙 6.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">흑돌 4개가 백돌의 활로를 완전히 막으며 포위했을 때는 백돌을 반상에 들어낸다. <br> 이것을 '따냄'이라고 하는데, 이렇게 따낸 백돌은 흑의 포로 가 되어 계가시 백집을 메우는데 쓰인다.</p>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">창 닫기</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Modal -->
+        <div class="portfolio-modal modal fade" id="check7" tabindex="-1" aria-labelledby="check7" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"><br>착수금지점의 규칙</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/바둑 규칙7.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">바둑에서는 기본적으로 반상 어디에나 착점할 수 있지만 예외적으로 둘 수 없는 곳이 있다.<br> 이미 상대로부터 사방이 완전히 둘러싸여있는 곳에는 착점할 수 없다.</p>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">창 닫기</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Modal -->
+        <div class="portfolio-modal modal fade" id="check8" tabindex="-1" aria-labelledby="check8" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"><br>동형반복금지의 규칙</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/바둑 규칙8.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">흑백이 맞물려 서로 맞따내는 형태를 하고 있을 때 적용되는 규칙.<br> A의 흑1로 백 한점을 따낸 뒤 곧바로 B의 백2로 흑 한점을 되따내는 것을 허용한다면 C와 D처럼 다시 흑3, 백4 로 서로 되따내는 일이 끊임없이 반복될 것이므로 이를 피하기 위한 규칙이 필요한 것이다.
+                                        <br>따라서 A의 흑1 직후 백은 곧바로 B의 백2로 따낼 수 없으며, <br> 다른 곳에 한 수 이상을 둔 다음 기회가 오면 비로소 백2로 되따낼 수 있는 것이다.<br> 이것을 '패(劫)'라고 일컬으며, 이 패를 놓고 벌이는 절충의 과정을 '패싸움'이라고 한다.</p>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">창 닫기</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Modal -->
+        <div class="portfolio-modal modal fade" id="check9" tabindex="-1" aria-labelledby="check9" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"><br>그 외 바둑 용어</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+                                        <strong>타개(打開)</strong><br>
+                                        매우 어렵거나 막힌 일을 잘 처리하여 해결함.<br>
+
+                                        <strong>패착(敗着)</strong><br>
+                                        바둑에서, 그곳에 돌을 놓았기 때문에 결과적으로 그 판에서 지게 된 아주 나쁜 수.<br>
+
+                                        <strong>복기(復棋/復碁)</strong><br>
+                                        바둑에서, 한 번 두고 난 바둑의 판국을 비평하기 위하여 두었던 대로 다시 처음부터 놓아 봄.<br>
+
+                                        <strong>훈수(訓手)</strong><br>
+                                        바둑이나 장기 따위를 둘 때에 구경하던 사람이 끼어들어 수를 가르쳐 줌. <br> 남의 일에 끼어들어 이래라저래라 하는 말.<br>
+
+                                        <strong>초(秒)읽기</strong><br>
+                                        바둑에서, 기록을 맡아보는 사람이 둘 차례가 된 기사의 제한 시간이 5분이나 10분밖에 남지 않았을 때부터 시간이 흐르는 것을 초 단위로 알려 주는 일. <br> 어떤 일이 시간상 급박한 상태를 비유적으로 이르는 말.<br>
+
+                                        <strong>입신(入神)</strong><br>
+                                        기력(棋力)을 나타내는 용어. 신과 같은 경지에 이르렀다는 뜻으로, 9단을 이른다.<br>
+
+                                        <strong>꼼수</strong><br>
+                                        쩨쩨한 수단이나 방법. 상대에게 이득을 꾀하는 수. 상대에게 들통날 때는 오히려 손해를 보게 된다.<br>
+
+                                        <strong>묘수(妙手)</strong><br>
+                                        평소 생각해내기 어려울 만큼 뛰어난 수.<br>
+
+                                        <strong>악수(惡手)</strong><br>
+                                        패배로 이끄는 나쁜 수. ‘장고 끝에 악수 둔다’로 쓰인다.<br>
+
+                                        <strong>자충수(自充手)</strong><br>
+                                        자충수는 스스로 자신의 활로를 메우는 수.<br>
+
+                                        <strong>패착(敗着)</strong><br>
+                                        스스로 행한 행동이 결국에 가서는 자신에게 불리한 결과를 가져오게 됨을 비유적으로 이르는 말.<br>
+
+                                        <strong>포석(布石)</strong><br>
+                                        중반전의 싸움이나 집 차지에 유리하도록 초반에 돌을 벌여 놓는 일. 앞날을 위하여 미리 손을 써 준비함.<br>
+
+                                        <strong>정석(定石)</strong><br>
+                                        예로부터 지금에 이르기까지 공격과 수비에 최선이라고 인정한 일정한 방식으로 돌을 놓는 법.<br>
+
+                                        <strong>꽃놀이패(霸)</strong><br>
+                                        한 편은 패가 나면 큰 손실을 입으나, 상대편은 패가 나도 별 상관이 없는 패.<br> 한쪽의 부담이 일방적으로 큰 패를 말한다.<br>
+
+                                        <strong>대마불사(大馬不死)</strong><br>
+                                        대마가 결국은 살길이 생겨 쉽게 죽지 않는 일.<br>
+
+                                        <strong>대마(大馬)</strong><br>
+                                        바둑에서, 많은 점으로 넓게 자리를 잡은 말.<br>
+
+                                        <strong>사활(死活,Tsumego)</strong><br>
+                                        바둑에서 돌의 삶과 죽음을 이르는 말.</p>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">창 닫기</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="static/js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+    </body>
+</html>
