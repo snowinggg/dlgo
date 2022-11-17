@@ -5,7 +5,7 @@ from flask import jsonify
 from flask import request
 
 from dlgo import agent
-from dlgo import goboard_fast as goboard
+import goboard_fast as goboard
 from dlgo.utils import coords_from_point
 from dlgo.utils import point_from_coords
 from dlgo.gosgf import Sgf_game
@@ -65,7 +65,7 @@ def get_web_app(bot_map):
 
     @app.route('/go_home', methods=['GET', 'POST'])
     def go_home():
-        return render_template('home.html')
+        return render_template('index.html')
 
     @app.route('/login')
     def login():
